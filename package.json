@@ -1,0 +1,23 @@
+{
+  "name": "typescript_course_2020_academind",
+  "version": "1.0.0",
+  "description": "TypeScript Tutorial 2020",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanPPitts/TypeScript_Course_2020_Academind.git"
+  },
+  "author": "Ryan Pitts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanPPitts/TypeScript_Course_2020_Academind/issues"
+  },
+  "homepage": "https://github.com/RyanPPitts/TypeScript_Course_2020_Academind#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
