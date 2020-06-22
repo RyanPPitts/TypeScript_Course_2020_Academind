@@ -22,3 +22,11 @@ Typescript adds Types! (un-necessary errors will be removed prior to runtime), N
 - Webpack and TypeScript
 - Third Party Libraries and TypeScript
 - React + TypeScript and NodeJS + TypeScript
+
+Working with Types
+
+- Core Syntax and Features
+- Core Types :
+  Number (Only one number type which is all numbers - no integer or floats. 1, 5.3, -10)
+  String (Text - "hi", 'hi'. All text values)
+  Boolean (True or False data type. If statements - truthy or falsy values)
