@@ -18,3 +18,7 @@ Typescript adds Types! (un-necessary errors will be removed prior to runtime), N
 - Generics
 - Decorators
 - Full Project built with TypeScript
+- Working with NameSpaces and Modules
+- Webpack and TypeScript
+- Third Party Libraries and TypeScript
+- React + TypeScript and NodeJS + TypeScript
