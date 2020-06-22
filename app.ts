@@ -1,9 +1,12 @@
 console.log('Code goes here');
 
+// Create Alias that holds union type of string|number
+type Combinable = number | string;
+
 function combine(
-  input1: number | string,
-  input2: number | string,
-  resultConversion: string
+  input1: Combinable,
+  input2: Combinable,
+  resultConversion: 'as-number' | 'as-text'
 ) {
   let result;
   if (
