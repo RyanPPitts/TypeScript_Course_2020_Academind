@@ -31,4 +31,5 @@ Working with Types
   String (Text - "hi", 'hi'. All text values)
   Boolean (True or False data type. If statements - truthy or falsy values)
   Object (Any Javascript object, more specific types are possible - Example {age: 30} )
-  Array (Collection of data - [1,2,3] )
+  Array (Container of data - flexible with data set (number, string,etc) - [1,2,3] )
+  Tuple (Example : [1,2] - Fixed length and fixed type )
