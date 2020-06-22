@@ -30,3 +30,5 @@ Working with Types
   Number (Only one number type which is all numbers - no integer or floats. 1, 5.3, -10)
   String (Text - "hi", 'hi'. All text values)
   Boolean (True or False data type. If statements - truthy or falsy values)
+  Object (Any Javascript object, more specific types are possible - Example {age: 30} )
+  Array (Collection of data - [1,2,3] )
