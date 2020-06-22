@@ -32,4 +32,6 @@ Working with Types
   Boolean (True or False data type. If statements - truthy or falsy values)
   Object (Any Javascript object, more specific types are possible - Example {age: 30} )
   Array (Container of data - flexible with data set (number, string,etc) - [1,2,3] )
-  Tuple (Example : [1,2] - Fixed length and fixed type )
+  Tuple (Example : [1,2] - Fixed length array with fixed type )
+  Enum (Example : enum { NEW , OLD} - only exists in typescript - automatically enumerated global constant identifiers )
+  Any (Any kind of value, no specific type assignment)
