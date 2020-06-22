@@ -36,4 +36,5 @@ Working with Types
   Enum (Example : enum { NEW , OLD} - only exists in typescript - automatically enumerated global constant identifiers )
   Any (Any kind of value, no specific type assignment - No the best option since you want to declare the core type to display error messages)
   Union (Flexible perimeters - function able to work with multiple values (string, numbers,etc) ) and Alias (Use Alias with Union to consolidate the info)
-  Void (This function doesnt have a return function - does not return anything)
+  Void (This function doesn't have a return function - does not return anything)
+  Unknown ( )
