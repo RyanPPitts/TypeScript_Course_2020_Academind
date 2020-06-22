@@ -34,4 +34,5 @@ Working with Types
   Array (Container of data - flexible with data set (number, string,etc) - [1,2,3] )
   Tuple (Example : [1,2] - Fixed length array with fixed type )
   Enum (Example : enum { NEW , OLD} - only exists in typescript - automatically enumerated global constant identifiers )
-  Any (Any kind of value, no specific type assignment)
+  Any (Any kind of value, no specific type assignment - No the best option since you want to declare the core type to display error messages)
+  Union (Flexible perimeters - function able to work with multiple values (string, numbers,etc) )

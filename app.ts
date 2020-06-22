@@ -1,57 +1,25 @@
-// Objects
-// TypeScript representation of your objects
+console.log('Code goes here');
 
-// const person: {
-//   name: string;
-//   nickname: string;
-//   age: number;
-// }
-// const person: {
-// name: string;
-// nickname: string;
-// age: number;
-// hobbies: string[];
-// role: [number, string];
-// } = {
-// name: 'Max',
-// nickname: 'Maxy',
-// age: 30,
-// hobbies: ['Soccer', 'Gaming'],
-// role: [2, 'developer'],
-// };
+function combine(
+  input1: number | string,
+  input2: number | string,
+  resultConversion: string
+) {
+  let result;
+  if (typeof input1 === 'number' && typeof input2 === 'number') {
+    result = input1 + input2;
+  } else {
+    result = input1.toString() + input2.toString();
+  }
 
-// const ADMIN = 0;
-// const READ_ONLY = 1;
-// const AUTHOR = 2;
-
-enum Role {
-  ADMIN = 10,
-  READ_ONLY,
-  AUTHOR,
+  return result;
 }
 
-const person = {
-  name: 'Ryan',
-  age: 30,
-  hobbies: ['soccer', 'gaming'],
-  role: Role.ADMIN,
-};
+const combinedAges = combine(30, 26, 'as-number');
+console.log(combinedAges);
 
-// person.role.push('manager'); -- adding or pushing string to role/tuple
-// person.role[1] = 10;
+const combinedStringAges = combine('30', '26', 'as-number');
+console.log(combinedStringAges);
 
-// Any Type : Allows for any typescript type (number, string, array,etc)
-
-let favoriteActivities: string[]; // store array of strings
-favoriteActivities = ['Sports'];
-
-console.log(person.name);
-console.log(person.role);
-
-for (const hobby of person.hobbies) {
-  console.log(hobby);
-}
-
-if (person.role === Role.AUTHOR) {
-  console.log('is author');
-}
+const combinedNames = combine('Max', 'Ryan', 'as-text');
+console.log(combinedNames);
