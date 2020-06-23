@@ -39,3 +39,7 @@ Working with Types
   Void (This function doesn't have a return function - does not return anything)
   Unknown (No allowed to do everything like any - rare in use )
   Never (Newer type in typescript - never as the return type - never returns anything)
+
+Tutorial Finished - 3 Hours 16 Mins
+
+- Great tutorial to go over the basics of TypeScript
