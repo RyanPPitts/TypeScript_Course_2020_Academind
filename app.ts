@@ -9,9 +9,9 @@ if (typeof userInput === 'string') {
 
 console.log(userName);
 
-// great utility function to show that the function does not return a value
+// great utility function
 // use with trycatch to catch errors
-function generateError(message: string, code: number): never {
+function generateError(message: string, code: number) {
   throw { message: message, errorCode: code };
 }
 
